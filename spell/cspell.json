@@ -1,0 +1,80 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "allowCompoundWords": false,
+    "languageSettings": [
+        {
+            "languageId": "cpp,python,bash,html",
+            "allowCompoundWords": false
+        }
+    ],
+    "overrides": [
+        {
+            "filename": "**/{*.hpp,*.cpp,*.py,*.yaml,*.sh}",
+            "ignoreRegExpList": [
+                "FIXME\\(.+\\)",
+                "TODO\\(.+\\)"
+            ]
+        },
+        {
+            "filename": "**/*.md",
+            "ignoreRegExpList": [
+                "\\(Contribution by .+?\\)",
+                "\\]\\(#.+?\\)",
+                "^\\| GPU  Name.+$",
+                "^gdown .+$"
+            ]
+        },
+        {
+            "filename": "**/*.rst",
+            "ignoreRegExpList": [
+                "^.*Merge branch.+$",
+                "^.*Contributors:.+$"
+            ]
+        },
+        {
+            "filename": "**/{*.svg,*.drawio}",
+            "ignoreRegExpList": [
+                "etag=&quot;[a-zA-Z0-9 +-/_]+&quot;",
+                "filter=\"[a-zA-Z0-9 +-/_#()]+\"",
+                "id=\"[a-zA-Z0-9 +-/_]+\"",
+                "id=&quot;[a-zA-Z0-9 +-/_]+&quot;",
+                "name=&quot;[a-zA-Z0-9 +-/_]+&quot;"
+            ]
+        }
+    ],
+    "ignorePaths": [
+        "**/*.caffemodel",
+        "**/*.cu",
+        "**/*.html",
+        "**/*.m4a",
+        "**/*.mp3",
+        "**/*.onnx",
+        "**/*.osm",
+        "**/*.pcd",
+        "**/*.pt",
+        "**/*.stl",
+        "**/*.wav",
+        "**/*.zip",
+        "**/*.zst",
+        "**/.git/**",
+        "**/.gitignore",
+        "**/.idea/**",
+        "**/.mypy_cache/**",
+        "**/__pycache__/**",
+        "**/build/**",
+        "**/external/**",
+        "**/install/**",
+        "**/log/**",
+        "**/package-lock.json",
+        "**/public/**",
+        "**/reports*/**"
+    ],
+    "flagWords": [
+        "planing"
+    ],
+    "words": [
+        "yolo",
+        "yolov"
+    ]
+}
