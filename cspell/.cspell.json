@@ -77,5 +77,8 @@
         "yolo",
         "yolov",
         "streetsidesoftware",
+        "rosdistro",
+        "keyserver",
+        "keyrings",
     ]
 }
